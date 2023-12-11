@@ -1,2 +1,54 @@
-$primary: rgb(185, 28, 107);
+$green: rgb(236, 244, 222);
+$primary: rgb(252, 203, 124);
+// $btn-font-size: 40px;
+$card-border-width: 0;
+$dark: rgb(73, 94, 99);
+
+// .btn-primary{
+//     font-size: 40px;
+// }
+
+// .btn-sencondary{
+//     font-size: 20px;
+// }
+
+.board{
+    background-image: url(/images/chalboard_temp.PNG);
+    background-size: cover;
+}
+
+
+h1 {
+    font-family: 'licorice', cursive;
+    color: $dark;
+}
+
+h2 {
+    font-family: 'Jomhuria', serif;
+}
+
+
+h4 {
+    font-family: 'Jomhuria', serif;
+}
+
+.green{
+    background-color: $green;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&family=Licorice&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+$font-family-base: "font-family: 'Jomhuria', serif; 'Licorice', cursive; 'Roboto', sans-serif;";
