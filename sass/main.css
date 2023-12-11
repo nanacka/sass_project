@@ -5,6 +5,12 @@
   background-size: cover;
 }
 
+.board-content {
+  border-style: dashed;
+  border-color: #fff;
+  border-width: 3px 3px 3px 3px;
+}
+
 h1, .h1 {
   font-family: "licorice", cursive;
   color: rgb(73, 94, 99);

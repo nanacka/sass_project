@@ -15,8 +15,16 @@ $dark: rgb(73, 94, 99);
 .board{
     background-image: url(/images/chalboard_temp.PNG);
     background-size: cover;
+    // border-style: dashed;
+    // border-width: 0px 0px 3px 0px;
+    // border-color: #fff;
 }
 
+.board-content{
+    border-style: dashed;
+    border-color: #fff;
+    border-width: 3px 3px 3px 3px;
+}
 
 h1 {
     font-family: 'licorice', cursive;
