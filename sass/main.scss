@@ -3,8 +3,12 @@ $primary: rgb(252, 203, 124);
 // $btn-font-size: 40px;
 $card-border-width: 0;
 $dark: rgb(73, 94, 99);
-$card-spacer-y: 0.5rem;
-$card-spacer-x: 0.5rem;
+// $card-spacer-y: 0.75rem;
+// $card-spacer-x: 0.75rem;
+
+
+
+
 // .btn-primary{
 //     font-size: 40px;
 // }
@@ -35,11 +39,15 @@ h1 {
 h2 {
     font-family: 'Jomhuria', serif;
 }
+$headings-line-height: 80%;
 
+$headings-margin-bottom:0;
 
-h4 {
+h4, .h4 {
     font-family: 'Jomhuria', serif;
+    margin-bottom: 0rem;
 }
+
 h5 {
     font-family: 'Jomhuria', serif;
 }
@@ -49,10 +57,18 @@ h5 {
 }
 
 p{
+    // font-family: 'licorice', cursive;
     //font-family: 'roboto', sans;
     font-family: 'Jomhuria', serif;
     font-size: 24px;
+    line-height: 80%;
 }
+
+.front{
+    background-image: url(/images/Sandwiches-300x300.png);
+    background-size: cover;
+}
+
 
 
 
