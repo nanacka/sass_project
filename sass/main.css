@@ -24,12 +24,17 @@ h4, .h4 {
   font-family: "Jomhuria", serif;
 }
 
+h5, .h5 {
+  font-family: "Jomhuria", serif;
+}
+
 .green {
   background-color: rgb(236, 244, 222);
 }
 
 p {
-  font-family: "Roboto", sans-serif;
+  font-family: "Jomhuria", serif;
+  font-size: 24px;
 }
 
 /*!
@@ -4364,8 +4369,8 @@ textarea.form-control-lg {
 }
 
 .card {
-  --bs-card-spacer-y: 1rem;
-  --bs-card-spacer-x: 1rem;
+  --bs-card-spacer-y: 0.5rem;
+  --bs-card-spacer-x: 0.5rem;
   --bs-card-title-spacer-y: 0.5rem;
   --bs-card-title-color: ;
   --bs-card-subtitle-color: ;
@@ -4374,8 +4379,8 @@ textarea.form-control-lg {
   --bs-card-border-radius: var(--bs-border-radius);
   --bs-card-box-shadow: ;
   --bs-card-inner-border-radius: calc(var(--bs-border-radius) - 0);
-  --bs-card-cap-padding-y: 0.5rem;
-  --bs-card-cap-padding-x: 1rem;
+  --bs-card-cap-padding-y: 0.25rem;
+  --bs-card-cap-padding-x: 0.5rem;
   --bs-card-cap-bg: rgba(var(--bs-body-color-rgb), 0.03);
   --bs-card-cap-color: ;
   --bs-card-height: ;

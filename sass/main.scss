@@ -3,7 +3,8 @@ $primary: rgb(252, 203, 124);
 // $btn-font-size: 40px;
 $card-border-width: 0;
 $dark: rgb(73, 94, 99);
-
+$card-spacer-y: 0.5rem;
+$card-spacer-x: 0.5rem;
 // .btn-primary{
 //     font-size: 40px;
 // }
@@ -39,14 +40,20 @@ h2 {
 h4 {
     font-family: 'Jomhuria', serif;
 }
+h5 {
+    font-family: 'Jomhuria', serif;
+}
 
 .green{
     background-color: $green;
 }
 
 p{
-    font-family: 'Roboto', sans-serif;
+    //font-family: 'roboto', sans;
+    font-family: 'Jomhuria', serif;
+    font-size: 24px;
 }
+
 
 
 
