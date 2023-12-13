@@ -18,11 +18,21 @@
         <li class="nav-item">
           <a class="nav-link active text-white" href="/links/about.html">About</a>
         </li>
-       <li class="nav-item">
-          <a class="nav-link text-white" href="#">Menu</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Menu
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Breakfast</a></li>
+            <li><a class="dropdown-item" href="#">Lunch</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Full Menu</a></li>
+          </ul>
         </li>
       </ul>
-      <img src="/images/logo_white.png" style="height: 100px" alt="">
+      <a href="/index.html">
+        <img src="/images/logo_white.png" style="height: 100px" alt="">
+      </a>
       <ul class="navbar-nav me-auto ms-5">
         <li class="nav-item">
           <a class="nav-link text-white" href="#">Locations</a>
@@ -45,8 +55,8 @@
 </div>
 
 
-<div class="front">
-  <div class="col-6 mx-auto text-center text-light py-5">
+<div class="front" style="height: 500px;">
+  <div class="col-6 mt-auto mx-auto text-center text-light py-5">
     <h1 class="display-1">Order online</h1>
     <p>Onjoy our caterfing from right at home from our new online ordering</p>
     <div class="btn btn-outline-light">Delivery</div>
@@ -146,19 +156,75 @@
 
 
     <div class="green">
-        <h1 class="text-center py-3 display-4" >Lunch deal</h1>
-    </div>
-    
-    
+      <a href="/menus/menu.html"> 
+        <h1 class="text-center text-dark py-3 display-4" >Lunch deal</h1>
+      </a>
+        
+        <div class="board p-2">
+          <div class="board-content m-2">
+      
 
-    <div class="board p-2">
+            <div class="row d-flex justify-content-evenly">
+
+              <div class="col-md-3 p-5 pb-1">
+
+                  <div class="card bg-transparent md text-center">
+                    <h4 class="card-title text-primary display-3">SANDWICH</h4>
+                    <img class="card-img-top rounded-5 img-fluid" src="/images/The-Caprese-VEGETARIAN-300x300.jpeg" alt="Card image" style="height:300px">
+                    <div class="card-body">
+                      <p class="card-text text-white">Choose from one of our fine sandwiches</p>
+                    </div>
+
+                </div>
+              </div>
+            
+              <div class="col-md-3 p-5 pb-1">
+
+                  <div class="card bg-transparent md text-center">
+                    <h4 class="card-title text-primary display-3">SOUP OF THE DAY</h4>
+                    <img class="card-img-top rounded-5 img-fluid" src="/images/soup.jpg" alt="Card image" style="height:300px">
+                    <div class="card-body">
+                      <p class="card-text text-white">Try Today's freshly made soup</p>
+                    </div>
+
+                </div>
+              </div>
+            
+              <div class="col-md-3 p-5 pb-1">
+
+                  <div class="card bg-transparent md text-center">
+                    <h4 class="card-title text-primary display-3">DRINK</h4>
+                    <img class="card-img-top rounded-5 img-fluid" src="/images/drink.jpg" alt="Card image" style="height:300px">
+                    <div class="card-body">
+                      <p class="card-text text-white">Add a refreshing drink</p>
+                    </div>
+                  </div>
+
+              </div>
+          
+          </div>
+
+          <div class="mx-auto text-center p-3">
+            <h4 class="text-primary display-2">€5.00</h4>
+            <button type="button" class="btn btn-outline-light" style="height:fit-content">Order</button>
+          </div>
+
+
+      </div>
+    </div>
+
+    
+    <!-- //alternative lunch deal menu thing -->
+
+    <!-- <div class="board container-fluid p-2">
       <div class="board-content m-2">
       
 
 
 
-          <div class="d-flex justify-content-evenly">
-            <div class="p-5 pb-1" style="width:400px">
+          <div class="row d-flex justify-content-evenly">
+
+            <div class="col-3 p-5 pb-1" style="width:400px">
               <div class="card bg-transparent md text-center">
                 <h4 class="card-title text-primary display-3">SANDWICH</h4>
                 <img class="card-img-top rounded-5 img-fluid" src="/images/The-Caprese-VEGETARIAN-300x300.jpeg" alt="Card image" style="height:300px">
@@ -168,7 +234,7 @@
               </div>
             </div>
           
-            <div class="p-5 pb-1" style="width:400px">
+            <div class="col-3 p-5 pb-1" style="width:400px">
               <div class="card bg-transparent md text-center">
                 <h4 class="card-title text-primary display-3">SOUP OF THE DAY</h4>
                 <img class="card-img-top rounded-5 img-fluid" src="/images/soup.jpg" alt="Card image" style="height:300px">
@@ -178,7 +244,7 @@
               </div>
             </div>
           
-            <div class="p-5 pb-1" style="width:400px">
+            <div class="col-4 p-5 pb-1" style="width:400px">
               <div class="card bg-transparent md text-center">
                 <h4 class="card-title text-primary display-3">DRINK</h4>
                 <img class="card-img-top rounded-5 img-fluid" src="/images/drink.jpg" alt="Card image" style="height:300px">
@@ -197,11 +263,11 @@
 
 
       </div>
-    </div>
+    </div> -->
 
-<div class="green">
-
-  <h1 class="text-center py-3 display-4">Menus</h1>
+    <a href="/menus/menu.html"> 
+      <h1 class="text-center text-dark py-3 display-4">Menus</h1> 
+    </a>
   <!-- <div class="d-flex justify-content-evenly">
     <h2 class="display-4" style="text-align: center">BREAKFAST</h2>
     <h2 class="display-4" style="text-align: center">LUNCH</h2>
@@ -354,137 +420,162 @@
 
   </div> -->
 
+  <div class="row m-5">
+    <div class="col-xl-6">
+      <h2 class="display-4 text-center">BREAKFAST</h2>
 
 
+          <div class="row my-3 mx-3">
 
-  <div class="d-flex">
-    <div class="container m-5">
-      <h2 class="display-4" style="text-align: center">BREAKFAST</h2>
-
-      <div class="my-3 d-flex justify-content-evenly">
-        <div class="container-sm">
-          <div class="board border rounded">
-            <div class="card bg-transparent text-center">
-
-              <img src="/images/The-Caprese-VEGETARIAN-300x300.jpeg" class="card-img-top rounded-5 object-fit-cover" alt="Card image cap" style="height: 250px;">
-              <div class="card-body">
-                <h5 class="card-title text-primary display-6 mx-auto">CHICKEN CHORIZO</h5>
-                <p class="card-text text-white">SMOKEY CHIPOTLE CHICKEN BREAST  •  CHORIZO  •  AVOCADO  •  MAYO  •  ROASTED PLUM TOMATOES  •  ROCKET  •  SOURDOUG</p>
-                  <a href="#" class="btn btn-outline-light">+</a>
+            <div class="col-md-6">
+              <div class="board border rounded">
+                <div class="card bg-transparent text-center">
+    
+                  <img src="/images/The-Caprese-VEGETARIAN-300x300.jpeg" class="card-img-top rounded-5 object-fit-cover" alt="Card image cap" style="height: 250px;">
+                  <div class="card-body">
+                    <h5 class="card-title text-primary display-6 mx-auto">CHICKEN CHORIZO</h5>
+                    <p class="card-text text-white">SMOKEY CHIPOTLE CHICKEN BREAST  •  CHORIZO  •  AVOCADO  •  MAYO  •  ROASTED PLUM TOMATOES  •  ROCKET  •  SOURDOUG</p>
+                      <a href="#" class="btn btn-outline-light">+</a>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
-        <div class="container-sm">
-          <div class="board border rounded">
-            <div class="card bg-transparent text-center">
-
-              <img src="/images/The-Caprese-VEGETARIAN-300x300.jpeg" class="card-img-top rounded-5 object-fit-cover" alt="Card image cap" style="height: 250px;">
-              <div class="card-body">
-                <h5 class="card-title text-primary display-6 mx-auto">CHICKEN CHORIZO</h5>
-                <p class="card-text text-white">SMOKEY CHIPOTLE CHICKEN BREAST  •  CHORIZO  •  AVOCADO  •  MAYO  •  ROASTED PLUM TOMATOES  •  ROCKET  •  SOURDOUG</p>
-                  <a href="#" class="btn btn-outline-light">+</a>
+    
+            <div class="col-md-6">
+              <div class="board border rounded">
+                <div class="card bg-transparent text-center">
+    
+                  <img src="/images/The-Caprese-VEGETARIAN-300x300.jpeg" class="card-img-top rounded-5 object-fit-cover" alt="Card image cap" style="height: 250px;">
+                  <div class="card-body">
+                    <h5 class="card-title text-primary display-6 mx-auto">CHICKEN CHORIZO</h5>
+                    <p class="card-text text-white">SMOKEY CHIPOTLE CHICKEN BREAST  •  CHORIZO  •  AVOCADO  •  MAYO  •  ROASTED PLUM TOMATOES  •  ROCKET  •  SOURDOUG</p>
+                      <a href="#" class="btn btn-outline-light">+</a>
+                  </div>
+                </div>
               </div>
             </div>
+    
           </div>
-        </div>
+
+          <div class="row my-3 mx-3">
+
+            <div class="col-md-6">
+              <div class="board border rounded">
+                <div class="card bg-transparent text-center">
+    
+                  <img src="/images/The-Caprese-VEGETARIAN-300x300.jpeg" class="card-img-top rounded-5 object-fit-cover" alt="Card image cap" style="height: 250px;">
+                  <div class="card-body">
+                    <h5 class="card-title text-primary display-6 mx-auto">CHICKEN CHORIZO</h5>
+                    <p class="card-text text-white">SMOKEY CHIPOTLE CHICKEN BREAST  •  CHORIZO  •  AVOCADO  •  MAYO  •  ROASTED PLUM TOMATOES  •  ROCKET  •  SOURDOUG</p>
+                      <a href="#" class="btn btn-outline-light">+</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col-md-6">
+              <div class="board border rounded">
+                <div class="card bg-transparent text-center">
+    
+                  <img src="/images/The-Caprese-VEGETARIAN-300x300.jpeg" class="card-img-top rounded-5 object-fit-cover" alt="Card image cap" style="height: 250px;">
+                  <div class="card-body">
+                    <h5 class="card-title text-primary display-6 mx-auto">CHICKEN CHORIZO</h5>
+                    <p class="card-text text-white">SMOKEY CHIPOTLE CHICKEN BREAST  •  CHORIZO  •  AVOCADO  •  MAYO  •  ROASTED PLUM TOMATOES  •  ROCKET  •  SOURDOUG</p>
+                      <a href="#" class="btn btn-outline-light">+</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+          </div>
+
+
+      <div class="text-center">
+        <a href="/menus/breakfast.html" type="button" class="btn btn-secondary">See Full Breakfast Menu</a>
       </div>
-      <div class="my-3 d-flex justify-content-evenly">
-        <div class="container-sm">
-          <div class="board border rounded">
-            <div class="card bg-transparent text-center">
-
-              <img src="/images/The-Caprese-VEGETARIAN-300x300.jpeg" class="card-img-top rounded-5 object-fit-cover" alt="Card image cap" style="height: 250px;">
-              <div class="card-body">
-                <h5 class="card-title text-primary display-6 mx-auto">CHICKEN CHORIZO</h5>
-                <p class="card-text text-white">SMOKEY CHIPOTLE CHICKEN BREAST  •  CHORIZO  •  AVOCADO  •  MAYO  •  ROASTED PLUM TOMATOES  •  ROCKET  •  SOURDOUG</p>
-                  <a href="#" class="btn btn-outline-light">+</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="container-sm">
-          <div class="board border rounded">
-            <div class="card bg-transparent text-center">
-
-              <img src="/images/The-Caprese-VEGETARIAN-300x300.jpeg" class="card-img-top rounded-5 object-fit-cover" alt="Card image cap" style="height: 250px;">
-              <div class="card-body">
-                <h5 class="card-title text-primary display-6 mx-auto">CHICKEN CHORIZO</h5>
-                <p class="card-text text-white">SMOKEY CHIPOTLE CHICKEN BREAST  •  CHORIZO  •  AVOCADO  •  MAYO  •  ROASTED PLUM TOMATOES  •  ROCKET  •  SOURDOUG</p>
-                  <a href="#" class="btn btn-outline-light">+</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-        <div class="text-center">
-          <a href="/menus/breakfast.html" type="button" class="btn btn-secondary">See Full Breakfast Menu</a>
-        </div>
-
 
     </div>
     
-  <div class="container m-5">
+  <div class="col-xl-6">
 
-    <h2 class="display-4" style="text-align: center">Lunch</h2>
-    <div class="my-3 d-flex justify-content-evenly">
-      <div class="container-sm">
-        <div class="board border rounded">
-          <div class="card bg-transparent text-center">
+    <h2 class="display-4 text-center">Lunch</h2>
+      <div class="row my-3 mx-3">
 
-            <img src="/images/The-Caprese-VEGETARIAN-300x300.jpeg" class="card-img-top rounded-5 object-fit-cover" alt="Card image cap" style="height: 250px;">
-            <div class="card-body">
-              <h5 class="card-title text-primary display-6 mx-auto">CHICKEN CHORIZO</h5>
-              <p class="card-text text-white">SMOKEY CHIPOTLE CHICKEN BREAST  •  CHORIZO  •  AVOCADO  •  MAYO  •  ROASTED PLUM TOMATOES  •  ROCKET  •  SOURDOUG</p>
-                <a href="#" class="btn btn-outline-light">+</a>
+        <div class="col-md-4">
+          <div class="board border rounded">
+            <div class="card bg-transparent text-center">
+
+              <img src="/images/The-Caprese-VEGETARIAN-300x300.jpeg" class="card-img-top rounded-5 object-fit-cover" alt="Card image cap" style="height: 250px;">
+              <div class="card-body">
+                <h5 class="card-title text-primary display-6 mx-auto">CHICKEN CHORIZO</h5>
+                <p class="card-text text-white">SMOKEY CHIPOTLE CHICKEN BREAST  •  CHORIZO  •  AVOCADO  •  MAYO  •  ROASTED PLUM TOMATOES  •  ROCKET  •  SOURDOUG</p>
+                  <a href="#" class="btn btn-outline-light">+</a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="container-sm">
-        <div class="board border rounded">
-          <div class="card bg-transparent text-center">
 
-            <img src="/images/The-Caprese-VEGETARIAN-300x300.jpeg" class="card-img-top rounded-5 object-fit-cover" alt="Card image cap" style="height: 250px;">
-            <div class="card-body">
-              <h5 class="card-title text-primary display-6 mx-auto">CHICKEN CHORIZO</h5>
-              <p class="card-text text-white">SMOKEY CHIPOTLE CHICKEN BREAST  •  CHORIZO  •  AVOCADO  •  MAYO  •  ROASTED PLUM TOMATOES  •  ROCKET  •  SOURDOUG</p>
-                <a href="#" class="btn btn-outline-light">+</a>
+        <div class="col-md-4">
+          <div class="board border rounded">
+            <div class="card bg-transparent text-center">
+
+              <img src="/images/The-Caprese-VEGETARIAN-300x300.jpeg" class="card-img-top rounded-5 object-fit-cover" alt="Card image cap" style="height: 250px;">
+              <div class="card-body">
+                <h5 class="card-title text-primary display-6 mx-auto">CHICKEN CHORIZO</h5>
+                <p class="card-text text-white">SMOKEY CHIPOTLE CHICKEN BREAST  •  CHORIZO  •  AVOCADO  •  MAYO  •  ROASTED PLUM TOMATOES  •  ROCKET  •  SOURDOUG</p>
+                  <a href="#" class="btn btn-outline-light">+</a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-    <div class="my-3 d-flex justify-content-evenly">
-      <div class="container-sm">
-        <div class="board border rounded">
-          <div class="card bg-transparent text-center">
 
-            <img src="/images/The-Caprese-VEGETARIAN-300x300.jpeg" class="card-img-top rounded-5 object-fit-cover" alt="Card image cap" style="height: 250px;">
-            <div class="card-body">
-              <h5 class="card-title text-primary display-6 mx-auto">CHICKEN CHORIZO</h5>
-              <p class="card-text text-white">SMOKEY CHIPOTLE CHICKEN BREAST  •  CHORIZO  •  AVOCADO  •  MAYO  •  ROASTED PLUM TOMATOES  •  ROCKET  •  SOURDOUG</p>
-                <a href="#" class="btn btn-outline-light">+</a>
+        <div class="col-md-4">
+          <div class="board border rounded">
+            <div class="card bg-transparent text-center">
+
+              <img src="/images/The-Caprese-VEGETARIAN-300x300.jpeg" class="card-img-top rounded-5 object-fit-cover" alt="Card image cap" style="height: 250px;">
+              <div class="card-body">
+                <h5 class="card-title text-primary display-6 mx-auto">CHICKEN CHORIZO</h5>
+                <p class="card-text text-white">SMOKEY CHIPOTLE CHICKEN BREAST  •  CHORIZO  •  AVOCADO  •  MAYO  •  ROASTED PLUM TOMATOES  •  ROCKET  •  SOURDOUG</p>
+                  <a href="#" class="btn btn-outline-light">+</a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="container-sm">
-        <div class="board border rounded">
-          <div class="card bg-transparent text-center">
 
-            <img src="/images/The-Caprese-VEGETARIAN-300x300.jpeg" class="card-img-top rounded-5 object-fit-cover" alt="Card image cap" style="height: 250px;">
-            <div class="card-body">
-              <h5 class="card-title text-primary display-6 mx-auto">CHICKEN CHORIZO</h5>
-              <p class="card-text text-white">SMOKEY CHIPOTLE CHICKEN BREAST  •  CHORIZO  •  AVOCADO  •  MAYO  •  ROASTED PLUM TOMATOES  •  ROCKET  •  SOURDOUG</p>
-                <a href="#" class="btn btn-outline-light">+</a>
+      </div>
+
+      <div class="row my-3 mx-3">
+
+        <div class="col-md-6">
+          <div class="board border rounded">
+            <div class="card bg-transparent text-center">
+
+              <img src="/images/The-Caprese-VEGETARIAN-300x300.jpeg" class="card-img-top rounded-5 object-fit-cover" alt="Card image cap" style="height: 250px;">
+              <div class="card-body">
+                <h5 class="card-title text-primary display-6 mx-auto">CHICKEN CHORIZO</h5>
+                <p class="card-text text-white">SMOKEY CHIPOTLE CHICKEN BREAST  •  CHORIZO  •  AVOCADO  •  MAYO  •  ROASTED PLUM TOMATOES  •  ROCKET  •  SOURDOUG</p>
+                  <a href="#" class="btn btn-outline-light">+</a>
+              </div>
             </div>
           </div>
         </div>
+
+        <div class="col-md-6">
+          <div class="board border rounded">
+            <div class="card bg-transparent text-center">
+
+              <img src="/images/The-Caprese-VEGETARIAN-300x300.jpeg" class="card-img-top rounded-5 object-fit-cover" alt="Card image cap" style="height: 250px;">
+              <div class="card-body">
+                <h5 class="card-title text-primary display-6 mx-auto">CHICKEN CHORIZO</h5>
+                <p class="card-text text-white">SMOKEY CHIPOTLE CHICKEN BREAST  •  CHORIZO  •  AVOCADO  •  MAYO  •  ROASTED PLUM TOMATOES  •  ROCKET  •  SOURDOUG</p>
+                  <a href="#" class="btn btn-outline-light">+</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
-    </div>
 
     <div class="text-center">
       <a href="/menus/lunch.html" type="button" class="btn btn-secondary">See Full Lunch Menu</a>
@@ -492,7 +583,10 @@
   </div>
 </div>
 
-<div class="d-flex">
+
+<!-- alternative menus -->
+
+<!-- <div class="d-flex">
   <div class="container m-5">
     <h2 class="display-4" style="text-align: center">BREAKFAST</h2>
 
@@ -642,23 +736,23 @@
 
   </div>
 
-</div>
-
-
+</div> -->
 
 
   <h1 class="mx-auto py-3 display-4 text-center">About Us</h1>
-  <div class="board m-5">
+  <div class="board p-2 m-5">
+    <div class="board-content m-2">
       <div class="row">
-        <div class="col-6">
-          <h1>Our Story</h1>
-          <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, rerum?</p>
+        <div class="col-md-6">
+          <h1 class="text-white display-3 m-5">Our Story</h1>
+          <p class="text-white m-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, rerum?</p>
         </div>
     
-        <div class="col-6">
+        <div class="col-md-6">
           <img class="img-fluid" src="/images/soup.jpg" alt="">
         </div>
       </div>
+    </div>
 
   </div>
 
@@ -668,8 +762,53 @@
 
 
 
-<div class="board">
-  <p>footer!!</p>
+<div class="board text-white p-5">
+  <div class="row">
+
+    <div class="col-sm-4">
+      <ul>
+        <li>Contact</li>
+        <li>Policy</li>
+        <li>Jobs</li>
+      </ul>
+    </div>
+
+    <div class="col-sm-4">
+      <p>Opening hours</p>
+      <ul>
+        <li>Monday -  9:00 -- 19:00 </li>
+        <li>Tuesday -  9:00 -- 19:00 </li>
+        <li>Wednesday -  9:00 -- 19:00 </li>
+        <li>Thursday -  9:00 -- 19:00 </li>
+        <li>Friday -  9:00 -- 19:00 </li>
+        <li>Saturday -  9:00 -- 19:00 </li>
+        <li>Sunday -  9:00 -- 19:00 </li>
+      </ul>
+    </div>
+
+    <div class="col-sm-4">
+      <p>Sign up to our Newsletter!</p>
+
+      <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Name</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Email </label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Send me offers</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+
+    </div>
+
+  </div>
+  <p>Designed by Felix McKillop</p>
 </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
