@@ -6,9 +6,6 @@ $dark: rgb(73, 94, 99);
 // $card-spacer-y: 0.75rem;
 // $card-spacer-x: 0.75rem;
 
-
-
-
 // .btn-primary{
 //     font-size: 40px;
 // }
@@ -41,6 +38,7 @@ h2 {
 }
 $headings-line-height: 80%;
 
+
 $headings-margin-bottom:0;
 
 h4, .h4 {
@@ -60,7 +58,7 @@ p{
     // font-family: 'licorice', cursive;
     //font-family: 'roboto', sans;
     font-family: 'Jomhuria', serif;
-    font-size: 24px;
+    font-size: 30px;
     line-height: 80%;
 }
 
@@ -69,17 +67,14 @@ p{
     background-size: cover;
 }
 
-
-
-
-
+.divided-left{
+    border-right: #fff;
+    border-right-style: dashed;
+    border-width: 3px 3px 3px 3px;
+}
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
-
-
-
 @import url('https://fonts.googleapis.com/css2?family=Jomhuria&family=Licorice&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
 
 $font-family-base: "font-family: 'Jomhuria', serif; 'Licorice', cursive; 'Roboto', sans-serif;";
