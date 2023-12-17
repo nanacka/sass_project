@@ -3,6 +3,7 @@ $primary: rgb(252, 203, 124);
 // $btn-font-size: 40px;
 $card-border-width: 0;
 $dark: rgb(73, 94, 99);
+$btn-font-family: 'licorice', cursive;
 // $card-spacer-y: 0.75rem;
 // $card-spacer-x: 0.75rem;
 
@@ -71,6 +72,7 @@ p{
 .front{
     background-image: url(/images/Sandwiches-300x300.png);
     background-size: cover;
+    padding-top: 100px;
 }
 
 .divided-left{
@@ -78,6 +80,7 @@ p{
     border-right-style: dashed;
     border-width: 3px 3px 3px 3px;
 }
+
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
