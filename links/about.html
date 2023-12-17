@@ -5,66 +5,123 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> -->
+    <!-- <script src="jquery-3.7.1.min.js"></script> -->
     <link rel="stylesheet" href="/sass/main.css">
     <title>Document</title>
 </head>
 <body>
-<div class="board">
-  <nav class="navbar navbar-expand-sm bg-transparent navbar-light sticky-top justify-content-center" style="height: 175px;">
-    <div class="container-fluid">
 
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active text-white" href="/links/about.html">About</a>
-        </li>
-       <li class="nav-item">
-          <a class="nav-link text-white" href="#">Menu</a>
-        </li>
-      </ul>
-      <img src="/images/logo_white.png" style="height: 100px" alt="">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link text-white" href="#">Locations</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white" href="#">Contact</a>
-        </li>
-        <!-- <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Dropdown</a>
+  <nav class="navbar navbar-expand-lg board p-2">
+    <div class="container-fluid board-content m-2">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse mt-4 mb-4" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto ms-auto me-5">
+          <li class="nav-item">
+            <a class="nav-link active text-white" href="/links/about.html">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Menu
+            </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Link</a></li>
-              <li><a class="dropdown-item" href="#">Another link</a></li>
-              <li><a class="dropdown-item" href="#">A third link</a></li>
+              <li><a class="dropdown-item" href="#">Breakfast</a></li>
+              <li><a class="dropdown-item" href="#">Lunch</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Full Menu</a></li>
             </ul>
-          </li> -->
-      </ul>
+          </li>
+        </ul>
+        <a href="/index.html">
+          <img src="/images/logo_white.png" style="height: 100px" alt="">
+        </a>
+        <ul class="navbar-nav me-auto ms-5">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Locations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </nav>
-</div>
 
 
 <div class="green">
-  <div class="container">
-    <h1 class="mx-auto py-3 display-4" style="width: 200px;">About Us</h1>
-  </div>
-</div>
+  <h1 class="mx-auto py-3 display-4 text-center">About Us</h1>
+  <div class="board p-2 m-5">
+    <div class="board-content m-2">
+      <div class="row my-5">
+        <div class="col-md-6 divided-left">
+          <h1 class="text-white display-3 text-center m-5">Our Story</h1>
+          <p class="text-white m-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores natus ab eius neque illum hic! Nulla ut dignissimos, minus voluptatem quo rem ipsum iure sunt neque delectus, facere autem dolorum.</p>
+          <p class="text-white m-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero doloribus labore ullam quibusdam architecto, recusandae eveniet soluta culpa, laboriosam cumque totam harum incidunt esse, veniam eaque fugiat exercitationem magnam molestiae.</p>
 
-
-<div class="green">
-  <div class="container">
+        </div>
     
+        <div class="col-md-6">
+          <img class="rounded" src="/images/soup.jpg" alt="" style="width:500px">
 
-
+        </div>
+      </div>
+    </div>
 
   </div>
 </div>
 
-
-
-<div class="board">
-  <p>footer!!</p>
 </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+<div class="board text-white p-5">
+  <div class="row">
+
+    <div class="col-sm-4">
+      <ul>
+        <li>Contact</li>
+        <li>Policy</li>
+        <li>Jobs</li>
+      </ul>
+    </div>
+
+    <div class="col-sm-4">
+      <p>Opening hours</p>
+      <ul>
+        <li>Monday -  9:00 -- 19:00 </li>
+        <li>Tuesday -  9:00 -- 19:00 </li>
+        <li>Wednesday -  9:00 -- 19:00 </li>
+        <li>Thursday -  9:00 -- 19:00 </li>
+        <li>Friday -  9:00 -- 19:00 </li>
+        <li>Saturday -  9:00 -- 19:00 </li>
+        <li>Sunday -  9:00 -- 19:00 </li>
+      </ul>
+    </div>
+
+    <div class="col-sm-4">
+      <p>Sign up to our Newsletter!</p>
+
+      <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Name</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Email </label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Send me offers</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+
+    </div>
+
+  </div>
+  <p>Designed by Felix McKillop</p>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>

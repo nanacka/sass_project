@@ -16,6 +16,14 @@ $btn-font-family: 'licorice', cursive;
 // .btn-sencondary{
 //     font-size: 20px;
 // }
+.square-small{
+    width: 200px;
+}
+
+
+.square{
+    aspect-ratio: 1 / 1;
+}
 
 .board{
     background-image: url(/images/chalboard_temp.PNG);
